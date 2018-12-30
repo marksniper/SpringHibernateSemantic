@@ -1,8 +1,8 @@
-#Sample Spring, Hibernate and Semantic web application
+# Sample Spring, Hibernate and Semantic web application
 
 It is a simple application in order to show the Spring and Hibernate configuration for an web application.
 
-##Configuration
+## Configuration
 
 Use createDBFromModel.sql in db folder, in order to create a MySql schema. Otherwise, it is possible import the db.mwb model in Workbench.
 
@@ -29,13 +29,13 @@ mvn clean install
 
 and the war is created. So now it is only necessary to load the war into Tomcat.
 
-##Useful information
+## Useful information
 
-###Maven
+### Maven
 
 Maven allows you to manage the lifecycle of the web app. Starting from dependencies to the war creation.
 
-###Spring
+### Spring
 
 The web application exploits:
 
@@ -49,7 +49,7 @@ The web application exploits:
    
    - Hibernate configuration, using a "hibernate.cfg.xml".
    
-###Hibernate
+### Hibernate
 
 The model class are generated with Intellij with JPA support. The simple CRUD is implemented: 
 
@@ -59,11 +59,11 @@ The model class are generated with Intellij with JPA support. The simple CRUD is
    - Delete an product ora an purchase.
    - A c3p0 connection and pooling is used.
    
-###Semantic
+### Semantic
 
 Semantic is chosen to user interface. It exploits a JQuery and JavaScript functions.
 
-##Some screenshots
+## Some screenshots
 
 ![figure](img/login.png "Login and create new user").
 
